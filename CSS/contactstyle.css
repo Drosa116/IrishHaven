@@ -1,0 +1,221 @@
+body {
+	background-color: black;
+	background-image: url("file:///Users/istudent/Desktop/IrishHaven/Images/irish.jpg");
+	background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    margin: 0;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+
+
+/*------ Header FTW!!! --------------------------------------------------*/
+
+#container {
+	height: 700px;
+	width: 100%;
+	position: relative;
+	opacity: 1;
+ 	overflow: hidden;
+ 	margin: 50px auto;
+ 	background: white;
+}
+
+#header {
+	height: 100px;
+	width: 100%;
+	position: relative;
+	opacity: 0.4;
+	background-color: black;
+}
+
+#icon {
+	 display: block;
+   color: white;
+   font-family: Fredericka the Great, Cursive;
+   text-align: left;
+   padding: 40px 40px;
+   text-decoration: none;
+   height: 50px;
+   width: 50px;
+
+}
+
+#nav1 {
+font-family: Fredericka the Great;
+}
+
+#nav1 ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+#nav1 li {
+   float: left;
+   font-size: 40px;
+}
+
+#nav1 li a {
+   display: block;
+   color: white;
+   font-family: Fredericka the Great, Cursive;
+   text-align: center;
+   padding: 14px 30px;
+   text-decoration: none;
+}
+
+/*------ Hot body ----------------------------------------------*/
+
+#bodice {
+	height: 1300px;
+	width: 80%;
+	box-shadow: 20px 20px 20px black;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 0px;
+	background-image:url(file:///Users/istudent/Desktop/IrishHaven/Images/scotchpaper.jpg);
+}
+
+#foodwrapper {
+	height: 400px;
+	width: 90%;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 25px;
+	border: 10px solid white;	
+	box-shadow: 10px 10px 20px #805415;
+}
+
+#opening {
+	height: 100px;
+	width: 90%;
+	position: absolute;
+	padding: 30px;
+	font-family: Fredericka the Great, Cursive;
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+#middle {
+	height: 270px;
+	width: 73%;
+	position: absolute;
+	opacity: 0.4;
+	background-color: black;
+	margin-top: 600px;
+	margin-left: 200px;
+}
+
+#happyhour {
+	height: 100px;
+	width: 500px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 650px;
+	font-family: Fredericka the Great, Cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#drinkbody {
+	height: 100px;
+	width: 300px;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 700px;
+	font-family: Sorts Mill Goudy, Cursive;
+    font-size: 18px;
+    word-wrap: break-word;
+    color: white;
+}
+
+#drinkwrapper {
+	height: 270px;
+	width: 25%;
+	position: absolute;
+	margin-top: 600px;
+	margin-left: 25px;
+	}
+
+#historybody {
+	height: 100px;
+	width: 300px;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: 1000px;
+	font-family: Sorts Mill Goudy, Cursive;
+    font-size: 15px;
+    word-wrap: break-word;
+    color: black;
+}
+
+#oldpic {
+	height: 250px;
+	width: 25%;
+	position: absolute;
+	margin-top: 900px;
+	margin-left: 500px;
+	border: 10px solid white;
+	box-shadow: 10px 10px 20px #805415;
+}
+
+/*------ Teh Footer --------------------------------------*/
+
+#footer {
+	height: 100px;
+	width: 100%;
+	position: relative;
+	opacity: 0.4;
+	background-color: black;
+	margin-top: 100px;
+}
+
+#closing {
+	height: 100px;
+	width: 25%;
+	position: absolute;
+	margin-left: 50px;
+	font-family: Fredericka the Great, Cursive;
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#nav2 {
+position: absolute;
+font-family: Fredericka the Great;
+margin: auto;
+}
+
+#nav2 ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   color: white;
+}
+
+#nav2 li {
+   float: left;
+   font-size: 40px;
+   color: white;
+}
+
+#nav2 li a {
+   display: block;
+   color: white;
+   font-family: Fredericka the Great, Cursive;
+   text-align: left;
+   padding: 40px 40px;
+   text-decoration: none;
+   height: 50px;
+   width: 50px;
+
+}
