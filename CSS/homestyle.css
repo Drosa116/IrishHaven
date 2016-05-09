@@ -48,10 +48,43 @@ img {
 	position: relative;
 	opacity: 0.4;
 	background-color: black;
+	margin: 0 auto;
 }
 
 #homeicon {
 	display: block;
+   color: white;
+   font-family: Fredericka the Great, Cursive;
+   text-align: left;
+   text-decoration: none;
+   height: 50px;
+   width: 50px;
+   padding: 40px 0;
+
+}
+
+#homenav1 {
+	font-family: Fredericka the Great;
+	padding: 0;
+  	
+}
+
+#homenav1 ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   color: white;
+}
+
+#homenav1 li {
+   float: left;
+   font-size: 40px;
+   color: white;
+}
+
+#homenav1 li a {
+   display: block;
    color: white;
    font-family: Fredericka the Great, Cursive;
    text-align: left;
@@ -60,31 +93,6 @@ img {
    height: 50px;
    width: 50px;
 
-}
-
-#homenav1 {
-font-family: Fredericka the Great;
-}
-
-#homenav1 ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
-}
-
-#homenav1 li {
-   float: left;
-   font-size: 40px;
-}
-
-#homenav1 li a {
-   display: block;
-   color: white;
-   font-family: Fredericka the Great, Cursive;
-   text-align: center;
-   padding: 14px 30px;
-   text-decoration: none;
 }
 
 /*------ Hot body ----------------------------------------------*/
