@@ -84,21 +84,19 @@ font-family: Fredericka the Great;
 #foodwrapper {
 	height: 400px;
 	width: 90%;
-	position: absolute;
-	margin-top: 100px;
+	position: relative;
 	margin-left: 25px;
 	border: 10px solid white;	
 	box-shadow: 10px 10px 20px #805415;
 }
 
 #opening {
-	height: 100px;
 	width: 90%;
-	position: absolute;
+	position: relative;
 	padding: 30px;
 	font-family: Fredericka the Great, Cursive;
     font-size: 45px;
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -165,6 +163,14 @@ font-family: Fredericka the Great;
 	border: 10px solid white;
 	box-shadow: 10px 10px 20px #805415;
 }
+
+#contact-info {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+
 
 /*------ Teh Footer --------------------------------------*/
 
