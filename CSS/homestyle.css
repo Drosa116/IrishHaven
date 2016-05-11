@@ -64,27 +64,29 @@ img {
 
 #homenav1 {
 font-family: Fredericka the Great;
+display: inline;
+
 }
 
-#homenav1 ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+li{
+	float: left;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: 200px;
+	font-size: 50px;
+	padding: 12px 15px 2px 2px;
+	font-family: Fredericka the Great, Cursive;
+	color: white;
+}
+ul{
+	margin: auto;
+	padding: 0;
+	margin-left: 20px;
+	overflow: hidden;
 }
 
-#homenav1 li {
-   float: left;
-   font-size: 40px;
-}
-
-#homenav1 li a {
-   display: block;
-   color: white;
-   font-family: Fredericka the Great, Cursive;
-   text-align: center;
-   padding: 14px 30px;
-   text-decoration: none;
+a:visited{
+	color: purple;
 }
 
 /*------ Hot body ----------------------------------------------*/

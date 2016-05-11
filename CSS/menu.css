@@ -2,6 +2,7 @@
 body {
 	margin: 0;
 }
+
 #menu{
 	width: 100%;
 	height: 800px;
@@ -11,6 +12,7 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
 #menuContainer {
 	position: relative;
 	width: 100%;
@@ -18,22 +20,17 @@ body {
 	margin: 0 auto;
 	margin-top: 30px;
 }
-#navbar{
-	position: relative;
-	width: 100%;
-	height: 70px;
-	background-color: black;	
-}
+
 #banner{
 	width: 100%;
 	height: 50px;
 	background-color: Green;
 	margin: auto;
 }
+
 #one{
-	width: 75%;
-	max-width: 820px;
-	height: 4380px;
+	width: 1060px;
+	height: 4000px;
 	background-color: black;
 	position: absolute;
 	left: 0;
@@ -43,12 +40,14 @@ body {
     padding: 10px;
     top:30px;
 }
+
 #homepic {
 	width:50px; 
 	height:50px; 
 	margin-left:20px; 
 	margin-top:8px;
 }
+
 #menupic {
 	position: absolute;
 	left: 0;
@@ -58,10 +57,13 @@ body {
 	height:70px; 
 	width:300px;
 }
+
 #vine {
-	width: 300px; 
+	width: 300px;
+	height: 250px; 
 	position: absolute;
 }
+
 p {
     color: white;
     text-align: center;
@@ -69,6 +71,7 @@ p {
     padding-top: 50px;
     font-family: 'Aclonica', sans-serif;
 }
+
 h5{
 	color: SpringGreen;
 	padding-left: 70px;
@@ -76,21 +79,25 @@ h5{
 	word-wrap: break-word;
 	left: 200px;
 }
+
 h4{
 	color: green;
 	padding-left: 70px;
 	padding-right: 70px;
 }
+
 h3{
 	color: white;
 	padding-left: 70px; 
 	font-family: 'Aclonica', sans-serif;
 }
+
 h2{
 	color: white;
 	text-align: center;
 	font-size: 25px;
 	font-family: 'Aclonica', sans-serif;
+
 	padding-top: 10px;
 }
 #info{
@@ -99,6 +106,7 @@ h2{
 	background-color: black;
  	margin-top: 1820px;
 }
+
 li{
 	float: left;
 	text-decoration: none;
@@ -106,7 +114,13 @@ li{
 	margin-left: 200px;
 	font-size: 20px;
 	padding: 12px 15px 2px 2px;
+	font-family: Fredericka the Great, Cursive;
 }
+
+li a{
+	color: red;
+}
+
 ul{
 	margin: auto;
 	padding: 0;
@@ -119,6 +133,21 @@ li a:hover {
 	background-color: #999;
 	padding: 10px 5px 10px 5px;
 }
+
 a:visited{
-	color: purple;
+	color: white;
+}
+
+.top-slides {
+	position: relative;
+	width: 100%;
+}
+
+.slideimages {
+	height: 550px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
 }
